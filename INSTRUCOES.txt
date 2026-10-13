@@ -1,0 +1,25 @@
+LEME ENGENHARIA - SITE PARA GITHUB PAGES
+
+Conteúdo:
+- index.html: site completo com CSS e links WhatsApp
+- CNAME: domínio personalizado
+
+PUBLICAÇÃO:
+1. Entre em github.com e crie repositório público chamado leme-engenharia (ou outro nome).
+2. Use Add file > Upload files para enviar index.html e CNAME na raiz (não envie ZIP).
+3. Em Settings > Pages selecione Deploy from a branch, branch main, pasta /(root), Save.
+4. Em Settings > Pages informe lemeengenharia.art.br em Custom domain, se ainda não estiver preenchido.
+5. No Registro.br, DNS, configure os registros A do domínio raiz (@):
+   185.199.108.153
+   185.199.109.153
+   185.199.110.153
+   185.199.111.153
+6. Remova entradas A/AAAA/CNAME conflitantes do domínio raiz (não remova registros de e-mail se os utiliza).
+7. Aguarde propagação e certificação TLS; em GitHub Pages ative Enforce HTTPS quando disponível.
+
+OBS: Se o domínio usa DNS de outro provedor, a configuração deve ser feita nesse provedor, não no Registro.br. Nunca compartilhe suas senhas.
+
+ANTES DE ANUNCIAR:
+- Confira WhatsApp, textos, descrição de serviços e a identidade visual.
+- Inclua dados profissionais e regulatórios exigidos para publicidade da atividade de engenharia (responsável técnico/CREA e identificação da empresa quando cabível).
+- Teste em celular e verifique políticas de privacidade/cookies se instalar rastreadores ou formulários.
